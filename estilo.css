@@ -1,4 +1,40 @@
 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+
+.flex-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    flex: 1; 
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+
+
+
+
+
 header {
     background-color: #07787c;
     color: #fff;
@@ -41,7 +77,11 @@ h2 {
 
 footer {
     background-color: #07787c;
-    color: #fff;
+    color: white; 
     text-align: center;
     padding: 10px;
 }
+#rodapé{
+    color: white;
+}
+
